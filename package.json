@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:haltu/muuri.git"
+    "url": "https://github.com/TheSabby/polymer-muuri.git"
   },
   "main": "muuri.js",
   "files": [

@@ -20,7 +20,6 @@ module.exports = function (config) {
       './' + pkg.main,
       './tests/index.js',
       './tests/utils.js',
-      './tests/grid-constructor/*.js',
       './tests/grid-options/*.js',
       './tests/grid-methods/*.js',
       './tests/grid-events/*.js',

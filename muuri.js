@@ -200,12 +200,6 @@
     // Allow passing element as selector string. Store element for instance.
     element = inst._element = typeof element === typeString ? doc.querySelector(element) : element;
 
-    // Throw an error if the container element is not body element or does not
-    // exist within the body element.
-    if (!body.contains(element)) {
-      throw new Error('Container element must be an existing DOM element');
-    }
-
     // Create instance settings by merging the options with default options.
     settings = inst._settings = mergeSettings(Grid.defaultOptions, options);
 

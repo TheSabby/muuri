@@ -1,5 +1,5 @@
 {
-  "name": "muuri",
+  "name": "polymer-muuri",
   "description": "Responsive, sortable, filterable and draggable grid layouts.",
   "keywords": [
     "grid",
@@ -11,14 +11,21 @@
   ],
   "homepage": "https://github.com/haltu/muuri",
   "license": "MIT",
-  "authors": [{
-    "name": "Niklas Rämö",
-    "email": "inramo@gmail.com",
-    "homepage": "https://github.com/niklasramo"
-  }],
+  "authors": [
+    {
+      "name": "Niklas Rämö",
+      "email": "inramo@gmail.com",
+      "homepage": "https://github.com/niklasramo"
+    },
+    {
+      "name": "Musaab Bakheit",
+      "email": "musabelfaki@gmail.com",
+      "homepage": "https://github.com/TheSabby"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:haltu/muuri.git"
+    "url": "https://github.com/TheSabby/polymer-muuri.git"
   },
   "main": "muuri.js",
   "ignore": [
